@@ -1,19 +1,18 @@
 using System;
-namespace Transflower.DesignPatterns.prototype
-{
-    
-    public class TemporaryEmployee : Employee
+namespace Transflower.DesignPatterns.Prototype
+{ 
+    public class Tester : Employee
     {
         public int FixedAmount { get; set; }
         public override Employee GetClone()
         {
-            // MemberwiseClone Method Creates a shallow copy of the current System.Object
-            return (TemporaryEmployee)this.MemberwiseClone();
+            // shallow copy of the current System.Objectb (replica)
+            return (Tester)this.MemberwiseClone();
         }
 
         public override void ShowDetails()
         {
-            Console.WriteLine("Temporary Employee");
+            Console.WriteLine("Developer");
             Console.WriteLine($" Name:{this.Name}, Department: {this.Department}, Type:{this.Type}, FixedAmount: {this.FixedAmount}\n");
         }
     }

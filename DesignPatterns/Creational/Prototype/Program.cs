@@ -6,7 +6,7 @@ namespace Transflower.DesignPatterns.prototype
         static void Main(string[] args)
         {
             // Creating an Instance of Permanent Employee Class
-            Employee emp1 = new PermanentEmployee()
+            Employee emp1 = new Manager()
             {
                 Name = "Anurag",
                 Department = "IT",
@@ -21,14 +21,14 @@ namespace Transflower.DesignPatterns.prototype
             // will not change the Name and Department Property Value of the emp1 instance
             emp2.Name = "Pranaya";
             emp2.Department = "HR";
+
+
             emp1.ShowDetails();
             emp2.ShowDetails();
 
 
-            
-
             // Creating an Instance of Temporary Employee Class
-            Employee emp3 = new TemporaryEmployee()
+            Employee emp3 = new Developer()
             {
                 Name = "Preety",
                 Department = "HR",

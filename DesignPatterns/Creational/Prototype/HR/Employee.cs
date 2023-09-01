@@ -1,4 +1,4 @@
-namespace Transflower.DesignPatterns.prototype
+namespace Transflower.DesignPatterns.Prototype
 {
     //The Prototype Abstract Class
     public abstract class Employee
@@ -6,7 +6,8 @@ namespace Transflower.DesignPatterns.prototype
         public string Name { get; set; }
         public string Department { get; set; }
         public string Type { get; set; }
-        public abstract Employee GetClone();
+       
         public abstract void ShowDetails();
+        public abstract Employee GetClone();
     }
 }
