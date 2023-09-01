@@ -6,11 +6,11 @@ public class Client
         // most cases, it is not even aware that the handler is part of a chain.
         public static void ClientCode(AbstractHandler handler)
         {
-            foreach (var food in new List<string> { "Nut", "Banana", "Cup of coffee" })
+            foreach (var item in new List<string> { "Salary", "Laptop", "Soap" })
             {
-                Console.WriteLine($"Client: Who wants a {food}?");
+                Console.WriteLine($"Client: Who wants a {item}?");
 
-                var result = handler.Handle(food);
+                var result = handler.Handle(item);
 
                 if (result != null)
                 {
@@ -18,7 +18,7 @@ public class Client
                 }
                 else
                 {
-                    Console.WriteLine($"   {food} was left untouched.");
+                    Console.WriteLine($"   {item} was left untouched.");
                 }
             }
         }

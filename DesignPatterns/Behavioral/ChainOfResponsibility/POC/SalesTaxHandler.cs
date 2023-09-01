@@ -1,12 +1,11 @@
 using Transflower.DesignPatterns.ChainOfResponsibility;
-
-public class DogHandler : AbstractHandler
+   public class SalesTaxHandler : AbstractHandler
     {
         public override object Handle(object request)
         {
-            if (request.ToString() == "MeatBall")
+            if (request.ToString() == "Soap")
             {
-                return $"Dog: I'll eat the {request.ToString()}.\n";
+                return $"SalesTax: I'll eat the {request.ToString()}.\n";
             }
             else
             {
