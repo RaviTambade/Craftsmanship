@@ -4,26 +4,29 @@ public class CarRoboBuilder:IBuilder{
     public void reset(){
         this.product=new Car();
         this.product.chassisnumber="654564";
-        Console.WriteLine("Body is set for Assembly :Auto Mode");
+        Console.WriteLine("auto Mode:Chassis is  ready");
     }
     public void setSeats(int count){
+
         this.product.seats=count;
-        Console.WriteLine("Auto Mode: {0} seats are attached");
+         Console.WriteLine("auto Mode:Seats are mounted");
+
     }
     public void setEngine(Engine engine){
         this.product.engine=engine;
-        Console.WriteLine("Auto Mode: Engine is set up on vehicle");
+         Console.WriteLine("auto Mode:Engine is set up");
+
     }
     public void setTripComputer(bool status){
         this.product.isTripComputer=status;
-        Console.WriteLine("Auto Mode : Computer is triped for vechile");
+         Console.WriteLine("auto Mode:Trip computer set up");
     }
     public void setGPS(bool status){
         this.product.gps=status;
-        Console.WriteLine("Auto Mode: GPS is  configured  for vehicle");
+         Console.WriteLine("auto Mode:GPS is set Up");
     }
     public Car GetProduct(){
-        this.reset();
+       // this.reset();
         return product;
     }
 }
