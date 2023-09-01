@@ -4,10 +4,10 @@ namespace Transflower.DesignPattern.Mediator
 {
     //Concrete Colleague
     //These are the classes that communicate with each other via the mediator.
-    public class Employee : User
+    public class FreelanceDeveloper : Candidate
     {
         //Parameterized Constructor is required to set the base class Name Property
-        public Employee(string Name) : base(Name)
+        public FreelanceDeveloper(string Name) : base(Name)
         {
         }
 
@@ -22,7 +22,7 @@ namespace Transflower.DesignPattern.Mediator
         public override void Send(string message)
         {
             Console.WriteLine(this.Name + ": Sending Message=" + message + "\n");
-            Mediator.SendMessage(message, this);
+            CoOrdinator.SendMessage(message, this);
         }
     }
 }
