@@ -7,4 +7,8 @@ public class GlassHouse: HouseTemplate{
     public override void BuildPillars(){
         Console.WriteLine("Building Pillars with glass coating");
     }
+    public override void BuildDoor(){
+        Console.WriteLine("Building Doors with glass");
+
+    }
 }
