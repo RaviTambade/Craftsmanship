@@ -7,6 +7,7 @@ public abstract class HouseTemplate{
         BuildPillars();
         BuildWalls();
         BuildWindows();
+        BuildDoor();
         Console.WriteLine("House is built");
     }
 
@@ -14,10 +15,11 @@ public abstract class HouseTemplate{
         Console.WriteLine("Buildling Foundation with cement, iron, rods and sand");
     }
 
-    public  void BuildWindows(){
+    public virtual void BuildWindows(){
           Console.WriteLine("Building Glass Windwos");
     }
     public abstract void BuildWalls();
     public abstract void BuildPillars();
+    public virtual void BuildDoor(){}
    
 }
