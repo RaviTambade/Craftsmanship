@@ -1,5 +1,5 @@
 namespace Transflower.DesignPatterns.Builder;
- public class ElecticEngine:Engine{
+ public class ElectricEngine:Engine{
     public override void Start()
     {
         Console.WriteLine(" Electric Engine is started");  
