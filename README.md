@@ -1,4 +1,4 @@
-# What Do Software Developers Do?
+## What Do Software Developers Do?
 *   Software developers write code to turn manual processes into automated processes.
 *   Everything the program is supposed to do must be known by the software developer.
 
