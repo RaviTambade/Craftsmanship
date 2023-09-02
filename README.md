@@ -24,7 +24,7 @@ Crafting Software  focus on
 - Software Architectures
 - OOP(Object Oriented Paradigm)
 - Design Patterns and Prctices 
-why we’ve chosen a specific way ?</b> Learn by doing. It is a learning expereince.
+
 Some important Learning Expereinces of Software Crafting:
 - Requirements: What Do They Mean to Developers?
   - I thought the BA (Business Analyst) would provide these.
