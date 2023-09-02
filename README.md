@@ -15,12 +15,17 @@ There are a few things that every software developer needs.
     - DB Schema -- so you know where data is stored, for examination
 Etc.
 
-
 ## Crafting Software
 
 Crafting Software is a process that shows you effective ways to capture the appropriate requirement details of a needed Software System using specific artifacts and user stories.
 
-Crafting Software  always have a strong focus on learning <b>Software Design Principles, Software Architectures, OOP(Object Oriented Paradigm), Design Patterns</b> and more. We not only  focus on applying different designs as a way forward in creating working software but we understand "why we’ve chosen a specific way". It is a learning expereince.
+Crafting Software  focus on 
+    - <b>Software Design Principles
+    - Software Architectures
+    - OOP(Object Oriented Paradigm)
+    - Design Patterns and Prctices 
+Understand  <b>why we’ve chosen a specific way</b>. 
+It is a learning expereince.
  
 Some important Learning Expereinces of Software Crafting:
 - Requirements: What Do They Mean to Developers?
