@@ -16,7 +16,7 @@ There are a few things that every software developer needs.
 Etc.
 
 ## Crafting Software
-
+<img src="/Images/learning.png">
 Crafting Software is a process that shows you effective ways to capture the appropriate requirement details of a needed Software System using specific artifacts and user stories.
 
 Crafting Software  focus on
