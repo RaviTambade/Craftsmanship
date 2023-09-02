@@ -1,6 +1,6 @@
 namespace Transflower.DesignPatterns.Builder;
 public interface IBuilder{
-    void SetTitle();
+    // void SetTitle();
     void Reset();
     void SetSeats(int count);
     void SetEngine(Engine engine);
