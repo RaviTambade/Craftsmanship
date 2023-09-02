@@ -1,20 +1,35 @@
-﻿using DesignPattern.Iterator;
+﻿using Transflower.DesignPatterns.Iterator;
+        IVehicleList vehicleList = new VehicleList();
+        vehicleList.AddVehicle(new Car("Toyota", "Innova", 2022, 4));
+        vehicleList.AddVehicle(new Motorcycle("Hero", "Splendor", 2021, true));
+        vehicleList.AddVehicle(new Car("Ford", "Figo", 2023, 4));
 
-ConcreteCollection collection = new ConcreteCollection();
-collection.AddEmployee(new Employee(1, "Abhay"));
-collection.AddEmployee(new Employee(2, "Sahil"));
-collection.AddEmployee(new Employee(3, "Shubham"));
-collection.AddEmployee(new Employee(4, "Akshay"));
-collection.AddEmployee(new Employee(5, "Akash"));
-collection.AddEmployee(new Employee(6, "Pragati"));
-Iterator iterator = collection.CreateIterator();
+        IIterator<Vehicle> iterator = vehicleList.CreateIterator();
 
-Console.WriteLine("Iterating over collection:");
+        Console.WriteLine("List of Vehicles:");
+        IterateAndPrintVehicles(iterator);
 
-for (Employee emp = iterator.First(); !iterator.IsCompleted; emp = iterator.Next())
-{
-  Console.WriteLine($"ID : {emp.Id} & Name : {emp.Name}");
-}
+
+    static void IterateAndPrintVehicles(IIterator<Vehicle> iterator)
+    {
+        while (iterator.HasNext())
+        {
+            Vehicle vehicle = iterator.Next();
+            Console.WriteLine($"Make: {vehicle.Make}, Model: {vehicle.Model}, Year: {vehicle.Year}");
+
+            if (vehicle is Car car)
+            {
+                Console.WriteLine($"Type: Car, Number of Doors: {car.NumDoors}");
+            }
+            else if (vehicle is Motorcycle motorcycle)
+            {
+                Console.WriteLine($"Type: Motorcycle, Has Windshield: {motorcycle.HasWindshield}");
+            }
+
+            Console.WriteLine();
+        }
+    }
+
 /*Encapsulating iteration is the core idea behind the iterator pattern. 
 To encapsulate a behaviour means to place the code that implements the behaviour
  into a type and hide the implementation details away from consumers of the type*/
