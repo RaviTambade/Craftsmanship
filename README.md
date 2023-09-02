@@ -15,20 +15,16 @@ There are a few things that every software developer needs.
     - DB Schema -- so you know where data is stored, for examination
 Etc.
 
-Crafting Software will focus on fulfilling these to guide the software developer into always knowing where she is in the overall System Development Life Cycle and what she should be focusing on.
 
 ## Crafting Software
 
-Crafting Software guides you into a process that will help you resolve both of these challenges by showing you effective ways to capture the appropriate details using specific artifacts and user stories.
-
-Crafting Software will have a strong focus on learning OOP principles and design patterns and more, but always with a focus of why we might choose one design over another. We will always focus on applying designs as a way forward in creating working software. We will only move forward with designs after we understand why we’ve chosen a specific way forward while understanding the trade-offs we’ve chosen.
+Crafting Software is a process that shows you effective ways to capture the appropriate requirement details of a needed Software System using specific artifacts and user stories.
 
 
 ## Software Design : Large & Growing Body of Knowledge
 
-Crafting Software  always have a strong focus on learning <b>Software Design Principles, Software Architectures, OOP(Object Oriented Paradigm) and Design patterns and more</b>. We  always focus on applying different designs as a way forward in creating working software. We not  only move forward with designs, but we understand why we’ve chosen a specific way. Experience we gain while crafting  Crafting Software help us to create software systems of every kind.
-
- Here are important learning expereinces we do get while Software Crafting:
+Crafting Software  always have a strong focus on learning <b>Software Design Principles, Software Architectures, OOP(Object Oriented Paradigm) and Design patterns and more</b>. We always focus on applying different designs as a way forward in creating working software. We not only move forward with designs, but we understand "why we’ve chosen a specific way". It is an expereince not just knowledge.
+ Here are important Learning Expereinces of Software Crafting:
 - Requirements: What Do They Mean to Developers?
   - I thought the BA (Business Analyst) would provide these.
 - How can I get people to tell me what they really want?
