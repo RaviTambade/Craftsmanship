@@ -1,3 +1,9 @@
+
+
+## Crafting Software
+<img src="/Images/learning.png">
+Crafting Software is a process that shows you effective ways to capture the appropriate requirement details of a needed Software System using specific artifacts and user stories.
+
 ## What Do Software Developers Do?
 *   Software developers write code to turn manual processes into automated processes.
 *   Everything the program is supposed to do must be known by the software developer.
@@ -15,9 +21,6 @@ There are a few things that every software developer needs.
     - DB Schema -- so you know where data is stored, for examination
 Etc.
 
-## Crafting Software
-<img src="/Images/learning.png">
-Crafting Software is a process that shows you effective ways to capture the appropriate requirement details of a needed Software System using specific artifacts and user stories.
 
 Crafting Software  focus on
 - Software Design Principles
