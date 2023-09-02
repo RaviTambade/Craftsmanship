@@ -2,23 +2,37 @@
 *   Software developers write code to turn manual processes into automated processes.
 *   Everything the program is supposed to do must be known by the software developer.
 
+## What Do Software Developers Really Need?
+There are a few things that every software developer needs.
+
+- A basic starting point - what are the basics of what we are supposed to build?
+- A way forward - how should the code be created?
+- A way to continue - A basic process for the daily work the software developer will do
+- A way backward - what did we actually do to create the software?
+  - Examples of things you might need to know as you look backward:
+    - Configuration - so you can deploy
+    - OOP Design -- so you can add enhancements, or more easily determine why a bug is occurring
+    - DB Schema -- so you know where data is stored, for examination
+Etc.
+
+Crafting Software will focus on fulfilling these to guide the software developer into always knowing where she is in the overall System Development Life Cycle and what she should be focusing on.
+
 ## Crafting Software
 
 Crafting Software guides you into a process that will help you resolve both of these challenges by showing you effective ways to capture the appropriate details using specific artifacts and user stories.
 
 Crafting Software will have a strong focus on learning OOP principles and design patterns and more, but always with a focus of why we might choose one design over another. We will always focus on applying designs as a way forward in creating working software. We will only move forward with designs after we understand why we’ve chosen a specific way forward while understanding the trade-offs we’ve chosen.
 
-The things we will learn about in Crafting Software will help you as you create software systems of every kind.
 
-Crafting Software will help you as you create software systems of every kind.
+## Software Design : Large & Growing Body of Knowledge
 
-Here’s a list of some of the things we will cover (there will be far more in the completed book):
+Crafting Software  always have a strong focus on learning <b>Software Design Principles, Software Architectures, OOP(Object Oriented Paradigm) and Design patterns and more</b>. We  always focus on applying different designs as a way forward in creating working software. We not  only move forward with designs, but we understand why we’ve chosen a specific way. Experience we gain while crafting  Crafting Software help us to create software systems of every kind.
 
+ Here are important learning expereinces we do get while Software Crafting:
 - Requirements: What Do They Mean to Developers?
-  - I thought the BA (Business Analyst) would provide these. (Insert maniacal laughter of experienced software developer here.)
+  - I thought the BA (Business Analyst) would provide these.
 - How can I get people to tell me what they really want?
 - Is there an easy way to get a summary of the system?
-- How can I easily track requirements (since no one else is)?
 - Real Object Oriented Programming (OOP)
   - OOP Is For Humans, Processors Don’t Care (OOP is a way to organize your code)
   - SOLID Principles
@@ -30,36 +44,42 @@ Here’s a list of some of the things we will cover (there will be far more in t
 - TDD, BDD - Building quality into the design
   - Code coverage - touch all your code & know what hasn’t been touched
 - Patterns of Software Development
-  -New ways to think about patterns -- so many devs think of these as some kind of magic written about in the GoF (Gang of Four Design Patterns book). Here you will learn the why of patterns.
-  - Reusable OOP structures which help you quickly solve problems and communicate solutions to other developers MVC - Heavy emphasis on Separation of Concerns (SoC) in modern software
+  -New ways to think about patterns -- so many devs think of these as some kind of magic written about in the GoF (Gang of Four Design Patterns book).
+  - Reusable OOP structures which help you quickly solve problems and communicate solutions to other developers
 - Real Software Design
-  - The real way forward : decomposing requirements (user stories) into domain model classes
+  - The real way forward : decomposing requirements (<b>user stories</b>) into domain model classes
   - Sticky note method: nouns and verbs
 - Database As A Developer
   - What is the point of a relational database? Answer: Structure
-  - Basic DB Design, Connection, etc
+  - Basic DB Design, Connection, etc.
   - Repository Pattern
   - Tools to make you faster
-    - Roundhouse
-    - Localdb (Microsoft “file” database)
-    - Special section on Sqlite
-- Version Control (Mercurial or Git)
-VCS (Version Control System) is non-negotiable for professional devs It’s not overhead, good VCS is a developer’s best friend
+    - MySql
+    - MongoDB
+- Version Control (Git or SVN)
+    - VCS (Version Control System) is non-negotiable for professional devs 
+    - It’s not overhead, good VCS is a developer’s best friend
 - Enterprise Patterns
     - Reusable system structures which help you solve Enterprise challenges
-- Integrating solutions - One of the main challenges is that data is stored in disparate formats and yet the Enterprise needs to share certain data elements with various systems
+- Integrating solutions 
+    - One of the main challenges is that data is stored in disparate formats and yet the Enterprise needs to share certain data elements with various systems
 - Deliverables / Milestones
-- Working software (Minimum Viable Product (MVP))
-continuous delivery and the necessity of tooling (build & deploy)
+- Working software (<b>Minimum Viable Product (MVP)</b>)
+- Continuous Integration/Continous delivery (<b>CI/CD</b>) and the necessity of tooling (build & deploy)
 - Appropriate UML Docs
-    - You will have to explain things to other people in various roles. - This is how you choose the appropriate document to show the person.
-    - Highest level of abstraction first, drill down into detail only as necessary - speeds up communication, makes meetings faster!
-    - You must use the language of the business domain. You must get everyone to use the same language (ubiquitous language) so that everyone can talk about things the same way.
+    - You will have to explain things to other people in various roles. 
+    - This is how you choose the appropriate document to show the person.
+    - Highest level of abstraction first, drill down into detail only as necessary 
+        - speeds up communication, makes meetings faster!
+    - You must use the language of the business domain. 
+        - You must get everyone to use the same language (ubiquitous language) so that everyone can talk about things the same way.
     - These UML docs will help create our Software Development Map
-    - Best software for creating UML - Enterprise Architect -- non-negotiable if you’re a professional dev
+    - Best software for creating UML 
+        - Enterprise Architect -- non-negotiable if you’re a professional dev
         - Also provides nice code reverse engineering and code generating
 - Every UML document explained with a why -- why you should produce the document
-    - A large portion of developers do not know why they create these documents. After you read Crafting Software you will be able to produce and explain every UML document covered and defend your reasons for not creating specific documents should you decide not to.
+    - A large portion of developers do not know why they create these documents. 
 
+Crafting Software process helps to produce and explain every UML document covered 
 
-## Working software is the primary measure of progress.
+## Always remember "Working software is the primary measure of progress".
