@@ -23,7 +23,7 @@ Crafting Software  focus on
 - Software Design Principles
 - Software Architectures
 - OOP(Object Oriented Paradigm)
-- Design Patterns and Prctices 
+- Design Patterns and Practices 
 
 Some important Learning Expereinces of Software Crafting:
 - Requirements: What Do They Mean to Developers?
@@ -32,7 +32,7 @@ Some important Learning Expereinces of Software Crafting:
 - Is there an easy way to get a summary of the system?
 - Real Object Oriented Programming (OOP)
   - OOP Is For Humans, Processors Don’t Care (OOP is a way to organize your code)
-  - SOLID Principles
+  - Hollywood, YAGNI, DRY, KISS, SOLID Design Principles
 - The Power of Flexible Design Using Interfaces
 - Writing Less Code Means You’re Advancing
 - Read Your Code Like a Book - readable source means less docs.
