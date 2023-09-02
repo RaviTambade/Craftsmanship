@@ -1,29 +1,33 @@
 ﻿using Transflower.DesignPatterns.Iterator;
-        IVehicleList vehicleList = new VehicleList();
-        vehicleList.AddVehicle(new Car("Toyota", "Innova", 2022, 4));
-        vehicleList.AddVehicle(new Motorcycle("Hero", "Splendor", 2021, true));
-        vehicleList.AddVehicle(new Car("Ford", "Figo", 2023, 4));
+  
+   
+        ITransportList transports = new TransportList();
 
-        IIterator<Vehicle> iterator = vehicleList.CreateIterator();
+        transports.Add(new Truck("MH14-5634","Tata Motors", "Yoddha", 2020,2));
+        transports.Add(new Truck("MH14-9874","Hinduja Motors", "Ashok Leylond", 2018,1));
+        transports.Add(new Truck("MH14-2544","Hinduja Motors", "Ashok Leylond", 2018,2));
+        transports.Add(new Traveller("MH14-5764","Force Motors", "Tempo Traveller", 2018,12));
+        transports.Add(new Traveller("MH14-5645","Force Motors", "Tempo Trax", 2018,6));
+         
+        IIterator<Transport> iterator = transports.CreateIterator();
+        Console.WriteLine("Our Transports:");
+        IterateAndShowTransports(iterator);
 
-        Console.WriteLine("List of Vehicles:");
-        IterateAndPrintVehicles(iterator);
 
-
-    static void IterateAndPrintVehicles(IIterator<Vehicle> iterator)
+    static void IterateAndShowTransports(IIterator<Transport> iterator)
     {
         while (iterator.HasNext())
         {
-            Vehicle vehicle = iterator.Next();
-            Console.WriteLine($"Make: {vehicle.Make}, Model: {vehicle.Model}, Year: {vehicle.Year}");
+            Transport currentTransport = iterator.Next();
+            Console.WriteLine($"Make: {currentTransport.Make}, Model: {currentTransport.Model}, Year: {currentTransport.Year}");
 
-            if (vehicle is Car car)
+            if (currentTransport is Truck truck)
             {
-                Console.WriteLine($"Type: Car, Number of Doors: {car.NumDoors}");
+                Console.WriteLine($"Type: Truck, Number of Axel: {truck.Axel}");
             }
-            else if (vehicle is Motorcycle motorcycle)
+            else if (currentTransport is Traveller traveller)
             {
-                Console.WriteLine($"Type: Motorcycle, Has Windshield: {motorcycle.HasWindshield}");
+                Console.WriteLine($"Type: Travelller, Has Seat: {traveller.Seats}");
             }
 
             Console.WriteLine();
