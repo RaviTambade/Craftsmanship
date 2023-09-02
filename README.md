@@ -19,7 +19,7 @@ Etc.
 
 Crafting Software is a process that shows you effective ways to capture the appropriate requirement details of a needed Software System using specific artifacts and user stories.
 
-Crafting Software  focus on 
+Crafting Software  focus on:
     - <b>Software Design Principles
     - Software Architectures
     - OOP(Object Oriented Paradigm)
