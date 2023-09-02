@@ -20,13 +20,11 @@ Etc.
 Crafting Software is a process that shows you effective ways to capture the appropriate requirement details of a needed Software System using specific artifacts and user stories.
 
 Crafting Software  focus on
-    - Software Design Principles
-    - Software Architectures
-    - OOP(Object Oriented Paradigm)
-    - Design Patterns and Prctices 
-Understand  <b>why we’ve chosen a specific way</b>. 
-It is a learning expereince.
- 
+- Software Design Principles
+- Software Architectures
+- OOP(Object Oriented Paradigm)
+- Design Patterns and Prctices 
+why we’ve chosen a specific way ?</b> Learn by doing. It is a learning expereince.
 Some important Learning Expereinces of Software Crafting:
 - Requirements: What Do They Mean to Developers?
   - I thought the BA (Business Analyst) would provide these.
