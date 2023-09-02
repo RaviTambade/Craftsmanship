@@ -46,9 +46,6 @@ namespace Transflower.DesignPatterns.Prototype
             emp3.ShowDetails();
             emp4.ShowDetails();
             
-            // Console.Read();
-
-
 
             // Creating an Instance of Temporary Employee Class
             Employee emp5 = new Tester()
