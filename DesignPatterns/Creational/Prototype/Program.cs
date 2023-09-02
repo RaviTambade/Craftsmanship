@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Transflower.DesignPatterns.prototype
+namespace Transflower.DesignPatterns.Prototype
 {
     class Program
     {
@@ -45,6 +45,29 @@ namespace Transflower.DesignPatterns.prototype
             emp4.Department = "Sales";
             emp3.ShowDetails();
             emp4.ShowDetails();
+            
+            // Console.Read();
+
+
+
+            // Creating an Instance of Temporary Employee Class
+            Employee emp5 = new Tester()
+            {
+                Name = "Pragati",
+                Department = "Testing",
+                Type = "Temporary",
+                FixedAmount = 250000
+            };
+
+            //Creating a Clone of the above Temporary Employee
+            Employee emp6 = emp5.GetClone();
+
+            // Changing the Name and Department Property Value of emp4 instance, 
+            // will not change the Name and Department Property Value of the emp3 instance
+            emp6.Name = "Samruddhi";
+            emp6.Department = "Testing";
+            emp5.ShowDetails();
+            emp5.ShowDetails();
             
             Console.Read();
         }
