@@ -5,9 +5,9 @@ namespace Transflower.DesignPattern.Mediator
     //which can be called by colleague objects for communication.
     public interface IRecruiter
     {
-        //This Method is used to send the Message who are registered with the Transflower Group
+        //This Method is used to send the Message who are registered as candidate
         void SendMessage(string msg, Candidate candidate);
-        //This method is used to register a user with the Transflower Group
-        void RegisterUser(Candidate candidate);
+        //This method is used to register a candidate
+        void RegisterCandidate(Candidate candidate);
     }
 }

@@ -9,7 +9,7 @@ namespace Transflower.DesignPattern.Mediator{
             //Create an Instance of Mediator i.e. Creating a Transflower Group
             IRecruiter  recruiter = new ITRecruiter();
 
-            //Create instances of Colleague i.e. Creating users
+            //Create instances of Colleague i.e. Creating candidate 
             Candidate Abhay = new FreelanceDeveloper("Abhay : Transflower 1 ");
             Candidate Shubham = new FreelanceDeveloper("Shubham  : Transflower 2 ");
             Candidate Akash = new FreelanceDeveloper("Akash  : Transflower 3 ");
@@ -20,14 +20,14 @@ namespace Transflower.DesignPattern.Mediator{
             Candidate Vedant = new FreelanceDeveloper("Vedant : Transflower 8 ");
 
             //Registering the users with the Mediator i.e. Transflower Group
-            recruiter.RegisterUser(Abhay);
-            recruiter.RegisterUser(Shubham);
-            recruiter.RegisterUser(Akash);
-            recruiter.RegisterUser(Rishikesh);
-            recruiter.RegisterUser(Pragati);
-            recruiter.RegisterUser(Sahil);
-            recruiter.RegisterUser(Akshay);
-            recruiter.RegisterUser(Vedant);
+            recruiter.RegisterCandidate(Abhay);
+            recruiter.RegisterCandidate(Shubham);
+            recruiter.RegisterCandidate(Akash);
+            recruiter.RegisterCandidate(Rishikesh);
+            recruiter.RegisterCandidate(Pragati);
+            recruiter.RegisterCandidate(Sahil);
+            recruiter.RegisterCandidate(Akshay);
+            recruiter.RegisterCandidate(Vedant);
 
             //One of the users Sending one Message in the Transflower Group
             Abhay.Send("Ravi sir ask to appear for interview...");
