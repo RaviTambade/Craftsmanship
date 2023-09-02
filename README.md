@@ -2,7 +2,7 @@
 
 ## Crafting Software
 <img src="/Images/learning.png">
-Crafting Software is a process that shows you effective ways to capture the appropriate requirement details of a needed Software System using specific artifacts and user stories.
+Crafting Software is an art of making software.It is a learning expereince of building working software in a better way. It is a continous learning. It is Agile.
 
 ## What Do Software Developers Do?
 *   Software developers write code to turn manual processes into automated processes.
