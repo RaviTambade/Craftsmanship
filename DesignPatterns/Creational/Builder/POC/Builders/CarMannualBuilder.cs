@@ -1,25 +1,25 @@
 namespace Transflower.DesignPatterns.Builder;
 public class CarMannualBuilder:IBuilder{
-    private Car product;
-   public void reset(){
+    private Vehicle product;
+   public void Reset(){
         Console.WriteLine("Body is set for Assembly :Mannual Mode");
     }
-    public void setSeats(int count){
+    public void SetSeats(int count){
         Console.WriteLine("Mannual Mode: {0} seats are attached");
     }
-    public void setEngine(Engine engine){
+    public void SetEngine(Engine engine){
 
         Console.WriteLine("Mannual Mode: Engine is set up on vehicle");
     }
-    public void setTripComputer(bool status){
+    public void SetTripComputer(bool status){
         Console.WriteLine("Mannual Mode : Computer is triped for vechile");
     }
-    public void setGPS(bool status){
+    public void SetGPS(bool status){
         Console.WriteLine("Mannual Mode: GPS is  configured  for vehicle");
     }
 
-     public Car GetProduct(){
-        this.reset();
+     public Vehicle GetProduct(){
+        this.Reset();
         return product;
     }
 }

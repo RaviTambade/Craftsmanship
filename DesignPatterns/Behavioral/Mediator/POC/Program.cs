@@ -1,4 +1,5 @@
 ﻿using System;
+
 namespace Transflower.DesignPattern.Mediator{
     class Program
     {
@@ -32,7 +33,6 @@ namespace Transflower.DesignPattern.Mediator{
             //One of the users Sending one Message in the Transflower Group
             Abhay.Send("Ravi sir ask to appear for interview...");
             Console.WriteLine();
-
             Console.Read();
         }
     }
