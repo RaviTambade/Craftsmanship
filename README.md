@@ -2,18 +2,17 @@
 
 # Crafting Software
 <img src="/Images/learning.png">
-<b>Beauty lies in the eyes of the beholder.</b>Software is a beautiful master piece crafted by Software Development Team. Crafting Software is an art of making software.It is a learning expereince of building working software in a better way. It is Agile; It is beautiful. I am loving it.Are you interested in ? 
+<b>Beauty lies in the eyes of the beholder.</b>Software is a beautiful master piece crafted by Software Development Team. Crafting Software is an art of making software.It is a learning expereince of building working software in a better way. It is Agile; It is beautiful. I am loving it.Are you interested in? 
 
 ### What Do Software Developers Do?
-IT automation is the process of creating software to replace repeatable processes and reduce manual intervention. It is the process of  accelerating the delivery of IT infrastructure and applications by automating manual processes that previously required human intervention.
-Software development is not a Rocket science. 
+Let me share with you. IT automation is the process of creating software to replace repeatable processes and reduce manual intervention. It is the process of accelerating the delivery of IT infrastructure and applications. IT automation is Software Development.It is not a Rocket science. 
 *   Software developers write code to turn manual processes into automated processes.
 *   Everything the program is supposed to do must be known by the software developer.
 
 ### What Do Software Developers Really Need?
 The journey from idea to masterpiece is paved with trust, hard work and sprinkled with passion. There are a few things that every software developer needs.
 
-- A basic starting point - what are the basics of what we are supposed to build?
+- A basic entry point - what are the basics of what we are supposed to build?
 - A way forward - how should the code be created?
 - A way to continue - A basic process for the daily work the software developer will do
 - A way backward - what did we actually do to create the software?
@@ -22,7 +21,6 @@ The journey from idea to masterpiece is paved with trust, hard work and sprinkle
     - OOP Design -- so you can add enhancements, or more easily determine why a bug is occurring
     - DB Schema -- so you know where data is stored, for examination
 Etc.
-
 
 ### Crafting Software  focus on
 - Software Design Principles
@@ -85,7 +83,6 @@ Etc.
 Crafting Software process helps to produce and explain every UML document covered 
 
 ### Always remember "Working software is the primary measure of progress".
-
 
 ## Running the Examples
 Each Example is separated into its own folder on the repository. It has its own solution. Browse the repository, each solution can be built separately with dotnet build or run with dotnet run.
