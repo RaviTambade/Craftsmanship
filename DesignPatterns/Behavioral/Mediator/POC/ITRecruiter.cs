@@ -7,21 +7,21 @@ namespace Transflower.DesignPattern.Mediator
     public class ITRecruiter : IRecruiter
     {
         //The following variable is going to hold the list of objects to whom we want to communicate
-        private List<Candidate> UsersList = new List<Candidate>();
+        private List<Candidate> candidatesList = new List<Candidate>();
 
         //The following method simply registers the user with Mediator
-        public void RegisterUser(Candidate candidate)
+        public void RegisterCandidate(Candidate candidate)
         {
-            //Adding the user
-            UsersList.Add(candidate);
-            //Registering the user with Mediator
+            //Adding the candidate
+            candidatesList.Add(candidate);
+            //Registering the candidate with Mediator
             candidate.CoOrdinator = this;
         }
 
         //The following method is going to send the message in the group i.e. to the group users
         public void SendMessage(string message, Candidate user)
         {
-            foreach (Candidate u in UsersList)
+            foreach (Candidate u in candidatesList)
             {
                 //Message should not be received by the user sending it
                 if (u != user)

@@ -7,11 +7,11 @@ namespace Transflower.DesignPattern.Mediator
     // This is going to be an abstract class that defines a property that holds a reference to a mediator.    
     public abstract class Candidate
     {
-        //This Property holds the name of the user
+        //This Property holds the name of the candidate
         protected string Name;
 
         //This Property is going to set and get the Mediator Instance
-        //This Property value is going to be set when we register a user with the Mediator
+        //This Property value is going to be set when we register a candidate with the Mediator
         public   IRecruiter CoOrdinator { get; set; }
         
         //Initializing the name using Constructor
