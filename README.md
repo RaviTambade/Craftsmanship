@@ -22,13 +22,13 @@ There are a few things that every software developer needs.
 Etc.
 
 
-Crafting Software  focus on
+## Crafting Software  focus on
 - Software Design Principles
 - Software Architectures
 - OOP(Object Oriented Paradigm)
 - Design Patterns and Practices 
 
-Some important Learning Expereinces of Software Crafting:
+## Some important Learning Expereinces of Software Crafting:
 - Requirements: What Do They Mean to Developers?
   - I thought the BA (Business Analyst) would provide these.
 - How can I get people to tell me what they really want?
@@ -83,3 +83,7 @@ Some important Learning Expereinces of Software Crafting:
 Crafting Software process helps to produce and explain every UML document covered 
 
 ## Always remember "Working software is the primary measure of progress".
+
+
+# Running the Examples
+Each Example is separated into its own folder on the repository. It has its own solution. Browse the repository, each solution can be built separately with dotnet build or run with dotnet run.
