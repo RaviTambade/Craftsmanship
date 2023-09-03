@@ -5,7 +5,7 @@
 <b>Beauty lies in the eyes of the beholder.</b>Software is a beautiful master piece crafted by Software Development Team. Crafting Software is an art of making software.It is a learning expereince of building working software in a better way. It is Agile; It is beautiful. I am loving it.Are you interested in ? 
 
 ### What Do Software Developers Do?
-IT automation is the process of creating software to replace repeatable processes and reduce manual intervention. It is a the process of  accelerating the delivery of IT infrastructure and applications by automating manual processes that previously required human intervention.
+IT automation is the process of creating software to replace repeatable processes and reduce manual intervention. It is the process of  accelerating the delivery of IT infrastructure and applications by automating manual processes that previously required human intervention.
 Software development is not a Rocket science. 
 *   Software developers write code to turn manual processes into automated processes.
 *   Everything the program is supposed to do must be known by the software developer.
