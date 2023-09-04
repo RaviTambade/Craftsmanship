@@ -1,12 +1,12 @@
 
-namespace Transflower.DesignPattern.Decorator.Car;
+namespace Transflower.DesignPattern.Decorator.Transportation;
 // Concrete Car   
  
-public class EconomyCar : ICar   
+public class Truck : ITransport   
 {   
    public string GetDescription()   
    {   
-      return "Economy Car";   
+      return "Goods Carrier Truck";   
    }   
   
    public double GetCost()   

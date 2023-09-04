@@ -1,11 +1,11 @@
 
 
 using System;
-namespace Transflower.DesignPattern.Decorator.Car;
+namespace Transflower.DesignPattern.Decorator.Transportation;
 
 
 //Car Interface
-public interface ICar   
+public interface ITransport   
 {   
    string GetDescription();   
    double GetCost();   

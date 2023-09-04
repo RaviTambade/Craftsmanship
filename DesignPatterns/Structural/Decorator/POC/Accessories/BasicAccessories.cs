@@ -1,13 +1,13 @@
-using  Transflower.DesignPattern.Decorator.Car;
+using  Transflower.DesignPattern.Decorator.Transportation;
   
-namespace Transflower.DesignPattern.Decorator.CarAccessories;
+namespace Transflower.DesignPattern.Decorator.Accessories;
 // Concrete Decorator   
 //Here we successfully avoided the sub classing issue. 
 //Whenever we need to add a new car category we only must add one class for it like the following.
-public class BasicAccessories : CarAccessoriesDecorator   
+public class BasicAccessories : VehicleAccessoriesDecorator   
 {   
-   public BasicAccessories(ICar aCar)   
-   : base(aCar)   
+   public BasicAccessories(ITransport vehicle)   
+   : base(vehicle)   
    {   
   
    }   

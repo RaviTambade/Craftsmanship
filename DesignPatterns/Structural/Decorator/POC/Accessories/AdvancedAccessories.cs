@@ -1,13 +1,13 @@
-using  Transflower.DesignPattern.Decorator.Car;
+using  Transflower.DesignPattern.Decorator.Transportation;
   
-namespace Transflower.DesignPattern.Decorator.CarAccessories;
+namespace Transflower.DesignPattern.Decorator.Accessories;
 
 // Concrete Decorator    
-public class AdvancedAccessories : CarAccessoriesDecorator   
+public class AdvancedAccessories : VehicleAccessoriesDecorator   
 {   
-   public AdvancedAccessories(ICar aCar)   
-   : base(aCar)   
-   {   
+   public AdvancedAccessories(ITransport vehicle)   
+   : base(vehicle)   
+   {
   
    }   
   

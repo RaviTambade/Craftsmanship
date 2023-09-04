@@ -1,10 +1,10 @@
-namespace Transflower.DesignPattern.Decorator.Car;
+namespace Transflower.DesignPattern.Decorator.Transportation;
 // Concrete Car      
-public class DeluxCar : ICar   
+public class Tempo : ITransport   
 {   
    public string GetDescription()   
    {   
-      return "Delux Car";   
+      return "Tempo Traveller";   
    }   
   
    public double GetCost()   
