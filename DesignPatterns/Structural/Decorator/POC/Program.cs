@@ -18,10 +18,10 @@ ITransport theTransport = new Truck();
    Console.WriteLine("\n\n");  
 
    //Now , Wrap EconomyTransport instance with AdvancedAccessories instance.   
-   //objAccessoriesDecorator = new AdvancedAccessories(objAccessoriesDecorator);  
+    objAccessoriesDecorator = new AdvancedAccessories(objAccessoriesDecorator);  
 
-    //Console.Write("\nTransport Detials for AdvancedAccessories : " + objAccessoriesDecorator.GetDescription());
-    //Console.Write("\n Total Price Advanced : " + objAccessoriesDecorator.GetCost()); 
+    Console.Write("\nTransport Detials for AdvancedAccessories : " + objAccessoriesDecorator.GetDescription());
+    Console.Write("\n Total Price Advanced : " + objAccessoriesDecorator.GetCost()); 
 
     /*When does a simple wrapper become the real decorator? The wrapper implements the same interface as the wrapped
      object. That’s why from the client’s perspective these objects are identical. 
