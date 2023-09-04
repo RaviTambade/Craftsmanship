@@ -4,29 +4,29 @@ public class Director{
 
 
     public Vehicle ConstructSportsCar( IBuilder builder){
-        builder.reset();
-         builder.setSeats(2);
-        builder.setGPS(true);
-        builder.setEngine(new ElecticEngine());
-        builder.setTripComputer(true);
+        builder.Reset();
+         builder.SetSeats(2);
+        builder.SetGPS(true);
+        builder.SetEngine(new ElectricEngine());
+        builder.SetTripComputer(true);
         return builder.GetProduct();
     }
 
     public Vehicle ConstructSUV( IBuilder builder){  
-        builder.reset();
-        builder.setSeats(7);
-        builder.setEngine( new ElecticEngine());
-        builder.setTripComputer(true);
-        builder.setGPS(true);
+        builder.Reset();
+        builder.SetSeats(7);
+        builder.SetEngine( new PetrolEngine());
+        builder.SetTripComputer(true);
+        builder.SetGPS(true);
         return builder.GetProduct();
     }
 
      public Vehicle ConstructPassengerCar( IBuilder builder){  
-        builder.reset();
-        builder.setSeats(4);
-        builder.setEngine( new ElecticEngine());
-        builder.setTripComputer(true);
-        builder.setGPS(true);
+        builder.Reset();
+        builder.SetSeats(4);
+        builder.SetEngine( new DiselEngine());
+        builder.SetTripComputer(true);
+        builder.SetGPS(true);
         return builder.GetProduct();
 
     }
