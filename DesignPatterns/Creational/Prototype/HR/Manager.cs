@@ -10,6 +10,7 @@ namespace Transflower.DesignPatterns.Prototype
             Console.WriteLine("Manager");
             Console.WriteLine($" Name:{this.Name}, Department: {this.Department}, Type:{this.Type}, Salary: {this.Salary}\n");
         }
+        
         public override Employee GetClone()
         {
             // shallow copy of the current System.Objectb (replica)
@@ -18,8 +19,6 @@ namespace Transflower.DesignPatterns.Prototype
 
     }
 }
-
-
 
 //each class in C# is derived from Object class
 //Important methods of Object 
