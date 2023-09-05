@@ -1,0 +1,202 @@
+Software Design Principles
+
+SOLID : 
+1.Single Responsibility Principle
+2.Open Closed Principle
+3.Liskov’s Substitution Principle
+4.Dependency Inversion Principle
+_________________________________________________________________________________________________________________________________________________
+
+
+Single Responsibility Principle
+
+
+Journal should only take care of entries & things related to the journal.
+And there should be one separate central location or entity which does the work of saving. In our case, its SavingManager.
+As your SavingManager grows, you have all the saving related code will be at one place. You can also templatize it to accept more domain objects.
+
+
+Benefits of Single Responsibility Principle
+
+
+Expressiveness
+
+When the class only does one thing, its interface usually has a small number of methods which is more expressive. 
+Hence, It also has a small number of data members.
+This improves your development speed & makes your life as a software developer a lot easier.
+
+
+Maintainability
+
+We all know that requirements change over time & so does the design/architecture. 
+The more responsibilities your class has, the more often you need to change it. 
+If your class implements multiple responsibilities, they are no longer independent of each other.
+Isolated changes reduce the breaking of other unrelated areas of the software.
+
+As programming errors are inversely proportional to complexity, being easier to understand makes the code less prone to bugs & easier to maintain.
+
+
+Reusability
+
+If a class has multiple responsibilities and only one of those needs in another area of the software, 
+then the other unnecessary responsibilities hinder reusability.
+
+Having a single responsibility means the class should be reusable without or less modification.
+
+
+Yardstick to Craft SRP Friendly Software
+
+SRP is a double-edged sword. 
+Be too specific & you will end up having hundreds of ridiculously interconnected classes, 
+that could easily be one.
+You should not use SOLID principles when you feel you are over-engineering. 
+
+The SRP is about limiting the impact of change. 
+So, gather together the things that change for the same reasons. 
+Separate those things that change for different reasons.
+
+Adding more to this, If your class constructor has more than 5-6 parameters 
+then it means either you are not followed SRP or you are not aware of builder design pattern.
+
+SRP is actually proposing a balance point between aggregation and division.
+
+
+____________________________________________________________________________________________________________________________________________________
+
+Open Closed Principle
+
+
+Intent
+
+classes should be open for extension, closed for modification.
+
+Benefits of Open Closed Principle
+
+Extensibility
+
+“When a single change to a program results in a cascade of changes to dependent modules, 
+that program exhibits the undesirable attributes that we have come to associate with ‘bad’ design. 
+The program becomes fragile, rigid, unpredictable and unreusable. 
+The open-closed principle attacks this in a very straightforward way. 
+It says that you should design modules that never change. When requirements change, 
+you extend the behaviour of such modules by adding new code, 
+not by changing old code that already works.”
+— Robert Martin
+
+Maintainability
+
+The main benefit of this approach is that an interface introduces an additional level of abstraction which enables loose coupling. 
+The implementations of an interface are independent of each other and don’t need to share any code.
+Thus, you can easily cope-up with client’s keep changing requirements. Very useful in agile methodologies.
+
+Flexibility
+
+The open-closed principle also applies to plugin and middleware architecture. 
+In that case, your base software entity is your application core functionality.
+In the case of plugins, you have a base or core module that can be plugged with new features & functionality through a common gateway interface. 
+A good example of this is web browser extensions.
+Binary compatibility will also be in-tact in subsequent releases.
+
+
+Yardstick to Craft Open Closed Principle Friendly Software
+
+In the SRP, you make a judgement about decomposition and where to draw encapsulation boundaries in your code. In the OCP, 
+you make a judgement about what in your module you will make abstract and leave to your module’s consumers to make concrete, 
+and what concrete functionality to provide yourself.
+
+There are many design patterns that help us to extend code without changing it. 
+For instance, the Decorator pattern helps us to follow Open Close principle. 
+Also, the Factory Method, Strategy pattern or 
+the Observer pattern might be used to design an application easy to change with minimum changes in the existing code.
+
+__________________________________________________________________________________________________________________________________________________
+
+Liskov’s Substitution Principle
+
+Benefits of Liskov’s Substitution Principle
+
+Compatibility
+
+It enables the binary compatibility between multiple releases & patches. In other words, It keeps the client code away from being impacted.
+
+Type Safety
+
+It’s the easiest approach to handle type safety with inheritance, as types are not allowed to vary when inheriting.
+
+Maintainability
+
+Code that adheres to LSP is loosely dependent on each other & encourages code reusability.
+Code that adheres to the LSP is code that makes the right abstractions.
+
+Yardstick to Craft Liskov’s Substitution Principle
+
+In most introductions to object-oriented programming, inheritance discussed as an “IS-A” relationship with the inherited object. 
+However, this is necessary, but not sufficient. 
+It is more appropriate to say that one object can be designed to inherit from another if it always has an “IS-SUBSTITUTABLE-FOR” relationship with the inherited object.
+
+The whole point of using an abstract base class is so that, in the future, you can write a new subclass & insert it into existing, working, tested code. 
+A noble goal, but how to achieve it? First, start with decomposing your problem space — domain. 
+Second, express your contract/interfaces/virtual-methods in plain English.
+
+_________________________________________________________________________________________________________________________________________________
+
+Interface Segregation Principle
+
+Benefits
+
+Faster Compilation
+
+If you have violated ISP i.e. stuffed methods together in the interface, 
+and when method signature changes, 
+you need to recompile all the derived classes.
+
+Reusability
+
+Martin also mentions that “fat interfaces” — interfaces with additional useless methods — lead to inadvertent coupling between classes. 
+Thus, an experienced dev knows coupling is the bane of reusability.
+
+Maintainability
+
+The much more universal ISP benefit is that by avoiding unneeded dependencies, the system becomes
+	easier to understand;
+	lighter to test;
+	quicker to change.
+
+Similarly, to the reader of your code, it would be harder to get an idea of what your class does from the class declaration line. 
+So, if dev sees only the one god-interface that may have inherited other interfaces it will likely not be obvious. Compare
+
+Yardstick to Craft Interface Segregation Principle
+
+This principle comes naturally when you start decomposing your problem space by identifying major roles that take part in your domain. 
+Hence, it’s never a mechanical action.
+Following a single question to your self may help you to rectify your design:
+
+Do I need all the methods on this interface I’m using?
+___________________________________________________________________________________________________________________________________________________
+
+Dependency Inversion Principle
+
+High-level modules should not depend on low-level modules. Both should depend on abstractions.
+Abstractions should not depend on details. Details should depend on abstractions.
+
+Benefits
+
+Reusability
+
+Effectively, the DIP reduces coupling between different pieces of code. Thus we get reusable code.
+
+Maintainability
+
+It is also important to mention that changing already implemented modules is risky. 
+By depending on abstraction & not on concrete implementation, we can reduce that risk by not having to change high-level modules in our project.
+Finally, DIP when applied correctly gives us flexibility and stability at the level of the entire architecture of our application. 
+Our application will be able to evolve more securely and become stable & robust.
+
+
+Yardstick to Craft Dependency Inversion Principle(DIP) 
+
+If you find enforcing DIP difficult then just design abstraction first & implement your high-level module on the bases of abstraction. 
+Without having any knowledge of the low-level module or its implementation. 
+Because of this process DIP is also known as Coding To Interface.
+
+Do not use the concrete object directly unless you have a strong reason to do so. Use abstraction instead.
