@@ -1,7 +1,7 @@
 ﻿using Transflower.DesignPattern.AbstractFactory;
 
-ICarFactory sedanFactory = new SedanFactory();
-ICar sedan = sedanFactory.CreateCar();
+IAutomobileFactory sedanFactory = new SedanFactory();
+IVehicle sedan = sedanFactory.CreateCar();
 
 Console.WriteLine("Sedan Information:");
 Console.WriteLine($"Model: {sedan.GetModel()}");
@@ -10,7 +10,7 @@ Console.WriteLine();
 
 // Create an SUV using SUVFactory
 ICarFactory suvFactory = new SUVFactory();
-ICar suv = suvFactory.CreateCar();
+IVehicle suv = suvFactory.CreateCar();
 
 Console.WriteLine("SUV Information:");
 Console.WriteLine($"Model: {suv.GetModel()}");

@@ -1,6 +1,6 @@
 namespace Transflower.DesignPattern.AbstractFactory;
 
-class SUV : ICar
+class SUV : IVehicle
 {
     public string GetModel()
     {

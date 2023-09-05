@@ -1,7 +1,7 @@
 namespace Transflower.DesignPattern.AbstractFactory;
 
 // Abstract Creator
-interface ICarFactory
+interface IAutomobileFactory
 {
     ICar CreateCar();
 }

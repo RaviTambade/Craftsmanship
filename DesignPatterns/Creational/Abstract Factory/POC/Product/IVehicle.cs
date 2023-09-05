@@ -1,7 +1,7 @@
 
 namespace Transflower.DesignPattern.AbstractFactory;
 
-interface ICar
+interface IVehicle
 {
     string GetModel();
     string GetDescription();

@@ -1,9 +1,9 @@
 namespace Transflower.DesignPattern.AbstractFactory;
 
 
-class SedanFactory : ICarFactory
+class SedanFactory : IAutomobileFactory
 {
-    public ICar CreateCar()
+    public IVehicle CreateCar()
     {
         return new Sedan();
     }
