@@ -4,14 +4,17 @@
 //When undo is requested, it restores the originator's state from a memento.
 class Command {
     private  Snapshot backup;
-
-    public  makeBackup() {
-            backup = editor.createSnapshot()
+    private Editor editor;
+    public Command(Editor editor){
+        this.editor=editor;
+    }
+    public void  makeBackup() {
+            backup = editor.CreateSnapshot();
     }
 
-    public  undo() {
+    public  void  undo() {
         if (backup != null)
-        backup.restore()
+        backup.Restore();
 
     }
 }
