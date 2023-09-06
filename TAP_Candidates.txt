@@ -50,12 +50,9 @@ BSC Comp	2022		    Pune University(HRM College)					                   65.36
 
 Name:Bangar Pragati Maruti
 Birth Date:18/09/2000
-Postal Address:
-
-
-
-Email Id:
-Contact Number:
+Postal Address: At Post Pimpalgaon Tal Ambegaon Dist Pune PinCode 410503
+Email Id:bangarpragati11@gmail.com
+Contact Number:7498035692
 10		2016		        SSC(Pimpalgaon)			 				                            84
 Diploma elect	2019		Government Polytechnic Awasari khurd 				                79
 BE Electrical 	2022		Pune University(JSPM College)					                    88
