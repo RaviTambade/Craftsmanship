@@ -1,5 +1,5 @@
 Name: Ajab Akash Shivaji
-Postal Address:At post Valati Tal Ambegaon Dist Pune
+Postal Address:At post Valati Tal Ambegaon Dist Pune 410504
 Email Id:akashajab1234@gmail.com
 Contact Number:9881571268
 Birth Date:15/09/1999
@@ -25,11 +25,14 @@ BSc Comp    2022	Pune University(HRM College)					                    67.08
 Name:Mankar Sahil Sahebrao
 Birth Date:17/11/2001
 Postal Address:
+  A/P Pargaon Tarf Khed ,
+  Tal:Ambegaon,
+  Dist:Pune,
+  PinCode:410 512
 
+Email Id:sahilmankar311@gmail.com
+Contact Number:8530728589
 
-
-Email Id:
-Contact Number:
 SSC 		2017		SSC(Awsari Bk)							                        89.60
 HSC 		2019 		HSC(Annasaheb Awte , Manachar)					                69.23
 BSc comp	2023		Pune University(HRM College)					                82.82
@@ -59,6 +62,9 @@ BE Electrical 	2022		Pune University(JSPM College)					                    88
 
 Name:Tanpure Akshay Chandrakant
 Birth Date:23/10/1995
+Postal Address: A/P Nilanjan heights flat no A-13 Samata Nagar,Rajgurunagar Tal-khed Dist Pune, 410505
+Email Id: akshaytanpure226@gmail.com
+Contact Number: 8668997994
 10		        2011		SSC (K. B. Patil ) 		 				                            69
 12		        2013		HSC (H. R.M college  ) 		 				                        48
 Diploma Auto	2016		Belhe Polytechnic 						                            66
