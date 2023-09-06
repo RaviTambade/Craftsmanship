@@ -9,9 +9,11 @@ namespace Transflower.DesignPatterns.Prototype
             // shallow copy of the current System.Objectb (replica)
             return (Developer)this.MemberwiseClone();
         }
+        
         public override void ShowDetails()
         {   Console.WriteLine("Developer");
             Console.WriteLine($" Name:{this.Name}, Department: {this.Department}, Type:{this.Type}, FixedAmount: {this.FixedAmount}\n");
         }
+        
     }
 }
