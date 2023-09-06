@@ -42,11 +42,12 @@ BSc comp	2023		Pune University(HRM College)					                82.82
 
 Name:Teli Shubham Balasaheb
 Birth Date:12/03/2001
-Postal Address:
+Postal Address:A/P:Bhavadi(kudalewadi)
+Tal-Ambegaon
+Dist-pune
+Pincode-410 512
 
-
-
-Email Id:
+Email Id:shubhamteli203@gmail.com
 Contact Number:
 10		2017		        SSC(Bhavadi)			 				                           73.40
 12		2019		        HSC(Peth)							                                48
