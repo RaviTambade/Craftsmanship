@@ -9,7 +9,6 @@ namespace Transflower.DesignPatterns.Prototype
             // shallow copy of the current System.Objectb (replica)
             return (Tester)this.MemberwiseClone();
         }
-
         public override void ShowDetails()
         {
             Console.WriteLine("Tester");
