@@ -12,11 +12,13 @@ BE Elect        2022	                                        Pune University(Sin
 Name :Navale Abhay Dadabhau 
 DateofBirth :17/04/2002 
 Postal Address:
-
-
-
-Email Id:
-Contact Number:
+    At/Post:Bhavadi,
+    Talluka:Ambegaon,
+    District:Pune,
+    PinCode:410 512
+    
+Email Id: navale.abhay12@gmail.com
+Contact Number: 9075966080
 10		    2017		SSC(Bhavadi)			 				                        78.40
 12		    2019		HSC(Peth)							                            57.80
 BSc Comp    2022	Pune University(HRM College)					                    67.08
