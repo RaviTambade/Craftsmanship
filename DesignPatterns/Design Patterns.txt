@@ -1,0 +1,24 @@
+Design Patterns
+
+1) Adapter - German addapter US laptop,
+2) Bridge- Television and Remote
+3) Composite - Order proccessing (inventory,shipping)
+4) Decorator - Bollywood Actor/Makeup Artist
+5) Builder - Vehicle factory assembly line
+6) Factory - Transportation
+7) Prototype - clonning
+8) Abstract Factory - Automobile industory
+9) Singleton- Helper
+10) Chain of Responsibility - Domino effect (Taxation)
+11) Command - Hotel/ Waiter
+12) Facade - ATM Machine
+13) FlyWeight - Intrinsic, Extrinsic.. Vikram lander solar panel, Galaxy
+14) Proxy - minister/Secretory
+15) Iterator - Linked-List  traversing
+16) Mediator - Translator, Axiel
+17) Memento - Backup Recovery
+18) Observer - Publisher subscriber (notification)
+19) State - 1.PH Factory 2.Air Conditioner 3.Constant speed vehicle driving
+20) Strategy - Google Maps.
+21) Template Method - House construction wooden/glass.
+22) Visitor - Pathalogical lab
