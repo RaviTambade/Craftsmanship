@@ -12,9 +12,9 @@ Digital transformation represents more than just adopting the latest tech trends
 1. Improved Collaboration: Digital tools facilitate collaboration across geographies and departments, breaking down silos and fostering teamwork.
 
 <b>Revenue Growth: The Fruit of Digital Transformation</b> Efficiency improvements are just one part of the digital transformation equation. The real magic happens when these efficiencies translate into revenue growth. Here's how:
-- <b>Enhanced Customer Experiences:</b> Digital transformation enables personalized, data-driven customer experiences, leading to increased customer loyalty and higher sales.
-- <b>New Revenue Streams:</b> Businesses can explore entirely new revenue streams, such as digital products, services, or subscription models.
--<b> Market Expansion</b>: Digital technologies break down geographical barriers, allowing businesses to tap into global markets.
+1. <b>Enhanced Customer Experiences:</b> Digital transformation enables personalized, data-driven customer experiences, leading to increased customer loyalty and higher sales.
+1. <b>New Revenue Streams:</b> Businesses can explore entirely new revenue streams, such as digital products, services, or subscription models.
+1. <b> Market Expansion</b>: Digital technologies break down geographical barriers, allowing businesses to tap into global markets.
 
 <b>Measuring Success: Metrics That Matter</b> To gauge the impact of digital transformation, organizations rely on various metrics:
 
