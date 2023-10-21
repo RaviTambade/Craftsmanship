@@ -13,21 +13,21 @@ Let us explore...
 </p>
 
 ### What Do Software Developers Do?
-Let me share with you. IT automation is the process of creating software to replace repeatable processes and reduce manual intervention. It is the process of accelerating the delivery of IT infrastructure and applications. IT automation is Software Development.It is not a Rocket science. 
+Let me share with you. IT automation is the process of creating software to replace repeatable processes and reduce manual intervention. It is the process of accelerating the delivery of IT infrastructure and applications. IT automation is Software Development. It is not a Rocket science. 
 - Software developers write code to turn manual processes into automated processes.
-- Everything the program is supposed to do must be known by the software developer.
+- Everything the program is supposed to do must be known to software developer.
 
 ### What Do Software Developers Really Need?
-The journey from idea to masterpiece is paved with trust, hard work and sprinkled with passion. There are a few things that every software developer needs.
+The journey from idea to masterpiece is paved with trust, hard work and sprinkled with passion. There are a few things that every software developer need to know:
 
-- A basic entry point - what are the basics of what we are supposed to build?
-- A way forward - how should the code be created?
-- A way to continue - A basic process for the daily work the software developer will do
-- A way backward - what did we actually do to create the software?
+-<b>A basic entry point </b>- what are the basics of what we are supposed to build?
+- <b>A way forward</b> - how should the code be created?
+-<b> A way to continue</b> - A basic process for the daily work the software developer will do
+-<b>A way backward</b> - what did we actually do to create the software?
   - Examples of things you might need to know as you look backward:
-    - Configuration - so you can deploy
-    - OOP Design -- so you can add enhancements, or more easily determine why a bug is occurring
-    - DB Schema -- so you know where data is stored, for examination
+    - <b>Configuration </b>- so you can deploy
+    - <b>OOP Design</b> - so you can add enhancements, or more easily determine why a bug is occurring
+    - <b>DB Schema </b> so you know where data is stored, for examination
 Etc.
 
 ### Crafting Software  focus on
