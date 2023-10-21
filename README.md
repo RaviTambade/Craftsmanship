@@ -3,7 +3,8 @@
 # Crafting Software
 <img src="/Images/learning.png">
 <b>Beauty lies in the eyes of the beholder.</b> <br/>
-Software is a beautiful master piece crafted by Software Development Team.<br/> Crafting Software is an art of making software.It is a learning expereince of building working software in a better way. 
+<p>Software is a beautiful master piece crafted by Software Development Team.</p>
+<p>Crafting Software is an art of making software. It is a learning expereince of building working software in a better way.  
 It is Agile; It is beautiful. 
 I am loving it.
 Are you interested in? 
@@ -11,8 +12,8 @@ Let us explore...
 
 ### What Do Software Developers Do?
 Let me share with you. IT automation is the process of creating software to replace repeatable processes and reduce manual intervention. It is the process of accelerating the delivery of IT infrastructure and applications. IT automation is Software Development.It is not a Rocket science. 
-*   Software developers write code to turn manual processes into automated processes.
-*   Everything the program is supposed to do must be known by the software developer.
+- Software developers write code to turn manual processes into automated processes.
+- Everything the program is supposed to do must be known by the software developer.
 
 ### What Do Software Developers Really Need?
 The journey from idea to masterpiece is paved with trust, hard work and sprinkled with passion. There are a few things that every software developer needs.
