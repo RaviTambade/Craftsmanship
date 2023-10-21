@@ -49,7 +49,6 @@ Are you interested in?
 Let us explore...
 </p>
 
-<a href="https://github.com/RaviTambade/Craftsmanship/blob/main/DigitalTransformation.md">Digital Transformation</a>
 ### What Do Software Developers Do?
 Let me share with you. IT automation is the process of creating software to replace repeatable processes and reduce manual intervention. It is the process of accelerating the delivery of IT infrastructure and applications. IT automation is Software Development. It is not a Rocket science. 
 - Software developers write code to turn manual processes into automated processes.
