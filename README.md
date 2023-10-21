@@ -112,23 +112,6 @@ Etc.
 - Deliverables / Milestones
 - Working software (<b>Minimum Viable Product (MVP)</b>)
 - Continuous Integration/Continous delivery (<b>CI/CD</b>) and the necessity of tooling (build & deploy)
-- Appropriate UML Docs
-    - You will have to explain things to other people in various roles. 
-    - This is how you choose the appropriate document to show the person.
-    - Highest level of abstraction first, drill down into detail only as necessary 
-        - speeds up communication, makes meetings faster!
-    - You must use the language of the business domain. 
-        - You must get everyone to use the same language (ubiquitous language) so that everyone can talk about things the same way.
-    - These UML docs will help create our Software Development Map
-    - Best software for creating UML 
-        - Enterprise Architect -- non-negotiable if you’re a professional dev
-        - Also provides nice code reverse engineering and code generating
-- Every UML document explained with a why -- why you should produce the document
-    - A large portion of developers do not know why they create these documents. 
-
-Crafting Software process helps to produce and explain every UML document covered 
+ 
 
 ### Always remember "Working software is the primary measure of progress".
-
-## Running the Examples
-Each Example is separated into its own folder on the repository. It has its own solution. Browse the repository, each solution can be built separately with dotnet build or run with dotnet run.
