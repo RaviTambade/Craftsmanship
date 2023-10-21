@@ -22,8 +22,8 @@ The journey from idea to masterpiece is paved with trust, hard work and sprinkle
 
 -<b>A basic entry point </b>- what are the basics of what we are supposed to build?
 - <b>A way forward</b> - how should the code be created?
--<b> A way to continue</b> - A basic process for the daily work the software developer will do
--<b>A way backward</b> - what did we actually do to create the software?
+- <b> A way to continue</b> - A basic process for the daily work the software developer will do
+- <b>A way backward</b> - what did we actually do to create the software?
   - Examples of things you might need to know as you look backward:
     - <b>Configuration </b>- so you can deploy
     - <b>OOP Design</b> - so you can add enhancements, or more easily determine why a bug is occurring
