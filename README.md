@@ -24,32 +24,32 @@ The journey from idea to masterpiece is paved with trust, hard work and sprinkle
 - <b>A way forward</b> - how should the code be created?
 - <b> A way to continue</b> - A basic process for the daily work the software developer will do
 - <b>A way backward</b> - what did we actually do to create the software?
-  - Examples of things you might need to know as you look backward:
+- Examples of things you might need to know as you look backward:
     - <b>Configuration </b>- so you can deploy
     - <b>OOP Design</b> - so you can add enhancements, or more easily determine why a bug is occurring
     - <b>DB Schema </b> so you know where data is stored, for examination
 Etc.
 
 ### Crafting Software  focus on
-- Software Design Principles
-- Software Architectures
-- OOP(Object Oriented Paradigm)
-- Design Patterns and Practices 
+- <b>Software Design Principles</b>
+- <b>Software Architectures</b>
+- <b>OOP(Object Oriented Paradigm)</b>
+- <b>Design Patterns and Practices</b>
 
 ### Some important Learning Expereinces of Software Crafting:
-- Requirements: What Do They Mean to Developers?
+- <b>Requirements</b>: 
   - I thought the BA (Business Analyst) would provide these.
-- How can I get people to tell me what they really want?
-- Is there an easy way to get a summary of the system?
-- Real Object Oriented Programming (OOP)
+  - How can I get people to tell me what they really want?
+  - Is there an easy way to get a summary of the system?
+- <b>Object Oriented Programming (OOP)</b> (What Do They Mean to Developers?)
   - OOP Is For Humans, Processors Don’t Care (OOP is a way to organize your code)
   - Hollywood, YAGNI, DRY, KISS, SOLID Design Principles
-- The Power of Flexible Design Using Interfaces
-- Writing Less Code Means You’re Advancing
-- Read Your Code Like a Book - readable source means less docs.
-- Code Reuse: The Holy Grail!
-- Handle Errors Because You Know About Them
-- TDD, BDD - Building quality into the design
+  - The Power of Flexible Design Using Interfaces
+  - Writing Less Code Means You’re Advancing
+  - Read Your Code Like a Book - readable source means less docs.
+  - Code Reuse: The Holy Grail!
+  - Handle Errors Because You Know About Them
+  - TDD, BDD - Building quality into the design
   - Code coverage - touch all your code & know what hasn’t been touched
 - Patterns of Software Development
   -New ways to think about patterns -- so many devs think of these as some kind of magic written about in the GoF (Gang of Four Design Patterns book).
