@@ -31,10 +31,10 @@ The journey from idea to masterpiece is paved with trust, hard work and sprinkle
 Etc.
 
 ### Crafting Software  focus on
-- <b>Software Design Principles</b>
-- <b>Software Architectures</b>
+- <b><a href="https://github.com/RaviTambade/SDM/blob/main/softwaredesignPriniciples.md">Software Design Principles </a></b>
+- <b><a href="https://github.com/RaviTambade/SDM/blob/main/softwarearchitecture.md">Software Architectures</a></b>
 - <b>OOP(Object Oriented Paradigm)</b>
-- <b>Design Patterns and Practices</b>
+- <b> <a href="https://github.com/RaviTambade/Craftsmanship/tree/main/DesignPatterns">Design Patterns and Practices</a></b>
 
 ### Some important Learning Expereinces of Software Crafting:
 - <b>Requirements</b>: 
