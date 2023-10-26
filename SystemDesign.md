@@ -29,7 +29,7 @@ Becoming an expert in system design is a gradual, enriching process, fueled by h
   Develop a high level architectural diagram that visually depicts the components and their interactions with core services.
   Understand how data flows throughout the system and how services communicate.
 
-7.<b> Dive into Low-Level Design</b>:
+7. <b> Dive into Low-Level Design</b>:
   Delve deep into the low level design specifics for each major component.
   Define data structures, algorithms, and implementation particulars.
   Contemplate optimisation techniques, tradeoffs, and potential bottlenecks.
