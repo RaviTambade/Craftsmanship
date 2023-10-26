@@ -1,5 +1,5 @@
 # What Are Computer Servers?
-<img src="/Images/server.png" width="200" height="100"/>
+<img src="/Images/server.png" width="300" height="200"/>
 A computer server is a powerful, big computer providing data to other computers. A server does not have a keyboard or a screen. You may have your computer with data and files that you have key-in, it is a server that stores the required data and shares the information with you anytime you access it. Your server may serve data on a LAN (local area network) to systems or a WAN (wide area network) over the internet.
 
 A server is a hardware or software device accepting and responding to your requests made over a network. Commonly, it refers to the computer system receiving requests for files and sends the same to the clients.
