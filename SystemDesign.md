@@ -4,7 +4,7 @@ A strong foundation in system design is an indispensable asset for advancing you
 
 Becoming an expert in system design is a gradual, enriching process, fueled by hands on experience. Remember, it's not just about reaching a destination but appreciating the journey itself. Persistence, an openminded approach, and an unwavering commitment to continuous learning will ultimately lead you to master the art of system design.
 
-Essential Steps to adopt for System Design:
+## Essential Steps to adopt for System Design:
 
 1. <b>Define Functional and NonFunctional Requirements</b>:
   Identify and meticulously document the functional requirements (what the system should accomplish) and non-functional requirements (how the system should perform).
