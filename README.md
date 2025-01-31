@@ -4,7 +4,7 @@
 <p>Software is a beautiful master piece crafted by Software Development Team.</p>
 <p>Crafting Software is an art of making software. It is a learning expereince of building working software in a better way. 
 
-## Manifesto for Software Craftsmanship
+### Manifesto for Software Craftsmanship
 Raising the bar.
 As a aspiring Software Craftsmen we are raising the bar of professional software development by practicing it and helping others learn the craft. Through this work we have come to value:
 - Not only working software, but also well-crafted software
