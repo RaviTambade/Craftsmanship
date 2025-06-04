@@ -1,0 +1,15 @@
+ArchitecturePatterns
+ashtpradhanmandal.md
+DesignPatterns
+DesignPrinciples
+digitaltrans.md
+filelist.txt
+guidenceto12thpassout.md
+manageyourself.md
+messsaging.md
+onlinesolutionaibots.md
+RabbitmqMicroServiceComm.md
+softwaredev.md
+swarajyasystemthinking.md
+SystemDesign.md
+TAP_Candidates.txt

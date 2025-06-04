@@ -87,3 +87,49 @@ Let’s not just be developers.
 Let’s be **software craftsmen**.
 Let’s **build with beauty**, one commit at a time.
 
+* <a href="https://github.com/RaviTambade/Craftsmanship/tree/main/Notes/guidenceto12thpassout.md">Guidance to 12th Passouts</a>
+  *Helps new learners and parents understand how to choose a career path thoughtfully and practically.*
+
+* <a href="https://github.com/RaviTambade/Craftsmanship/tree/main/Notes/manageyourself.md">Manage Yourself First</a>
+  *Before building software systems, learn to manage your time, mindset, and direction.*
+
+* <a href="https://github.com/RaviTambade/Craftsmanship/tree/main/Notes/softwaredev.md">Software Development Journey</a>
+  *Understand the mindset, craft, and evolving nature of a software developer's path.*
+
+* <a href="https://github.com/RaviTambade/Craftsmanship/tree/main/Notes/filelist.txt">Learning File List</a>
+  *Overview of the resources and curated topics ahead.*
+
+* <a href="https://github.com/RaviTambade/Craftsmanship/tree/main/Notes/digitaltrans.md">Digital Transformation</a>
+  *Understand the role of software in reshaping business, government, and society.*
+
+* <a href="https://github.com/RaviTambade/Craftsmanship/tree/main/Notes/swarajyasystemthinking.md">Swarajya System Thinking</a>
+  *Using historical systems like Swarajya to understand how vision, values, and systems create sustainable change.*
+
+* <a href="https://github.com/RaviTambade/Craftsmanship/tree/main/Notes/ashtpradhanmandal.md">Ashtapradhan Mandal as Software Architecture</a>
+  *A metaphorical mapping of Shivaji Maharaj’s governance model to microservices and software architecture roles.*
+
+* <a href="https://github.com/RaviTambade/Craftsmanship/tree/main/Notes/DesignPrinciples.md">Design Principles</a>
+  *Solidify your foundation with SOLID, DRY, YAGNI, and KISS—principles that shape clean, maintainable code.*
+
+* <a href="https://github.com/RaviTambade/Craftsmanship/tree/main/Notes/DesignPatterns.md">Design Patterns</a>
+  *Learn how reusable object-oriented patterns solve recurring design problems elegantly.*
+
+* <a href="https://github.com/RaviTambade/Craftsmanship/tree/main/Notes/ArchitecturePatterns.md">Architecture Patterns</a>
+  *Explore layered architecture, hexagonal, microkernel, microservices, and more.*
+
+* <a href="https://github.com/RaviTambade/Craftsmanship/tree/main/Notes/SystemDesign.md">System Design Essentials</a>
+  *Learn how to design scalable, high-availability systems through real-world scenarios and architecture.*
+
+* <a href="https://github.com/RaviTambade/Craftsmanship/tree/main/Notes/messsaging.md">Messaging in Modern Applications</a>
+  *Understand the need for async communication in large systems and the shift from tightly coupled APIs.*
+
+* <a href="https://github.com/RaviTambade/Craftsmanship/tree/main/Notes/RabbitmqMicroServiceComm.md">RabbitMQ for Microservice Communication</a>
+  *Hands-on understanding of queues, producers, consumers, and offline messaging architecture.*
+
+* <a href="https://github.com/RaviTambade/Craftsmanship/tree/main/Notes/onlinesolutionaibots.md">Online Solutions as AI Bots (Human-Body Analogy)</a>
+  *Mentor-style breakdown of how AI bots, messaging, and microservices mimic a human nervous system.*
+
+* <a href="https://github.com/RaviTambade/Craftsmanship/tree/main/Notes/TAP_Candidates.txt">TAP Candidates</a>
+  *Profiles and tracking of students in your Talent Acceleration Program (TAP).*
+
+ 
