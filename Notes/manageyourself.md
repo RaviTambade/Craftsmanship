@@ -1,15 +1,9 @@
-
-
-#  9 Months Are Over — It's Time to Reset, Refocus, and Rise*
+#  It's Time to Reset, Refocus, and Rise
 
 > "Dear Students,
-> We’re now 9 months into the year. Let that sink in.
-> Three-fourths of the race is done — but the finish line is not the end... it's a *transformation*.
-> You’re not here to *just finish* the year. You’re here to finish it **strong**.
-> The next 60 days? That’s your golden window.
+> You’re not here to *just finish* the course. You’re here to finish it **strong**.
+> The next 90 days? That’s your golden window.
 > Give it your all — and you might not even recognize the version of you that walks out of it."
-
----
 
 ## 🌞 **1. Manage Your Time – Be the Master of Your Day**
 
@@ -69,7 +63,7 @@ Instead:
 Now here’s the magic:
 
 * Get **1% better** every day.
-* In 60 days, you’ll be **60% stronger**, sharper, and more skilled.
+* In 90 days, you’ll be **90% stronger**, sharper, and more skilled.
 
 🏗️ *Growth is like building a bridge, one brick at a time.*
 
@@ -95,13 +89,11 @@ This mindset shift is **how developers debug**, how engineers innovate, and how 
 
 🔍 *Diagnosis leads to direction. And direction leads to progress.*
 
----
-
 ## 💥 **Final Words from Your Mentor**
 
-> “Give me 60 days, and I’ll give you a new version of yourself.”
+> “Give me 90 days, and I’ll give you a new version of yourself.”
 
-Let’s be honest — 2023 may not have gone exactly how you planned.
+Let’s be honest — Your last year may not have gone exactly how you planned.
 But you’re still here. You still have time.
 And that means you still have **hope**.
 
@@ -113,9 +105,10 @@ So I challenge you:
 * Reflect like a scientist.
 * And rise like a phoenix.
 
-📅 *60 days from now — will you be better, bolder, and more focused?*
+📅 *90 days from now — will you be better, bolder, and more focused?*
 
 Let’s find out.
 Your mentor believes in you.
 Now it’s **your turn** to believe in yourself.
 
+Tap your potential.
