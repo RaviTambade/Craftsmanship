@@ -1,5 +1,5 @@
 
-#  Welcome to Your Developer Kitchen – VS Code Edition**
+#  Welcome to Your Developer Kitchen – VS Code Edition
 
 ## 🍽️ *“Before you cook, set up your kitchen.”*
 
